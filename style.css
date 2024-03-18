@@ -8,7 +8,6 @@
 }
 .label {
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
 }
@@ -18,7 +17,7 @@
   width: 10rem;
   text-align: center;
 }
-.card {
+.card {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +28,17 @@
   transform: translate(-50%, -50%);
   width: 16rem;
   height: 10rem;
-  border: 3px solid red;
+  border: 14px solid red;
   background-color: bisque;
   z-index: 10;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  transition: all 1s;
+ 
 }
-
+.card:active {
+  border: 40px solid red;
+ 
+}
 
 .hidden {
   display: none;
